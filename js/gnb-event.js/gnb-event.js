@@ -1,5 +1,5 @@
-
 //버튼의 요소 노드 취득
+
 const menuBtn = document.querySelector('header .menu-open');
 const closeBtn = document.querySelector('.gnb .close');
 
