@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 검색 엔진 최적화(SEO) 
-      포털 사이트 등에서 다른 사용자가 특정 검색어로 페이지 검색을 실시할 때,
-      검색 결과에서 웹사이트 또는 웹 페이지의 상위 노출도를 높이는 작업을 SEO라고 합니다.
-      포털 사이트의 크롤링 봇(bot)이 여러 정보를 탐색할 때 SEO를 참조하기 때문에
-      내가 구현한 웹 페이지가 어떠한 정보를 가지고 있는지를 봇에게 제공하는 기능입니다.
-  -->
-
-  <meta name="author" content="Kyoungmin Lee">
-  <meta name="description" content="ICT Web Site">
-
-  <title>ICT Studio</title>
+  <!-- 검색 엔진 최적화(seo)
+  포털사이트 등에서 다른 사용자가 특정 검색어로 페이지 검색을 실시할 때
+검색 결과에서 웹사이트 또는 웹페이지의 상위 노출도를 높이는 작업을 seo라고 합니다
+포털 사이트의 크롤링 봇 이 여러 정보를 탐색할 때 seo를 참조하기 때문에
+내가 구편한 웹 페이지가 -->
+  <title>ICT</title>
+  <meta name="author" content="kmh">
+  <meta name="description" content="ict web site">
 
   <link rel="stylesheet" href="./img/snow.ico" type="image/x-icon">
   <!-- custom css -->
@@ -27,12 +24,12 @@
 
   <!-- custom js -->
 
-  <script src="./js/gnb-event.js/gnb-event.js" defer></script>
+  <script src="./gnb-event.js/gnb-event.js" defer></script>
 
 </head>
 
 <body>
-  
+
   <div class="wrap">
 
     <!-- header -->
@@ -40,35 +37,47 @@
       <div class="inner-header">
         <h1 class="logo">
           <a href="#">
-            <img src="./img/logo.png" alt="로고이미지">
+            <img src="../img/logo.png" alt="로그이미지">
           </a>
         </h1>
-        <h2 class="intro-text">Welcome</h2>
+        <h2 class="intro-text">wlcome</h2>
         <a href="#" class="menu-open">
           <span class="menu-txt">MENU</span>
           <span class="lnr lnr-menu"></span>
         </a>
       </div>
-
       <nav class="gnb">
         <a href="#" class="close">
           <span class="lnr lnr-cross"></span>
         </a>
         <ul>
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#">Abot</a></li>
           <li><a href="#">Work</a></li>
           <li><a href="#">Contact</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="#">New</a></li>
           <li><a href="#">Favorite</a></li>
         </ul>
       </nav>
-
-
     </header>
-
+    <!-- end header -->
   </div>
-
+  <!-- section visual -->
+  <section class="visual">
+    <ul class="slide">
+      <li>
+        <img src="./img/visual1.jpg" alt="슬라이드 이미지1">
+        <div class="txt">
+          <p>creative design with ict syudio</p>
+          <h3>webside & app <br>raeawdw web and <br> snfasf dfsnje</h3>
+          <a href="#">see the work <span class="lnr lnr-chevron-right"></span></a>
+          
+        </div>
+        <span class="scroll">Scroll down</span>
+      </li>
+    </ul>
+  </section>
 
 </body>
+
 </html>
