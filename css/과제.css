@@ -1,0 +1,13 @@
+@import url(./common.css);
+
+
+.wrap .boxs{
+  
+ 
+  
+  }
+.allbox{
+  display: flex;
+    background: orange;
+    
+  }
