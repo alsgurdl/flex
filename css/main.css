@@ -1,13 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('./common.css');
-
+.wrap{
+  margin: 10px auto;
+}
 .wrap .boxs{
-  width: 100%;
+  width: 65%;
+ height: 500px;
   margin: 0 auto;
   border: 4px solid black;
   }
-.allbox{
+  .wrap .boxs .allbox{
   display: flex;
-    background: orange;
+  flex-wrap: wrap;
+  }
+  .wrap .boxs .allbox .box{
+    width: 25%;
+    height: 45%;
+  
+  justify-content: center;
+  
+  border: 4px solid black;
+
+  }
+  .wrap .boxs .allbox .kling{
+    flex-grow: 2;
+    margin: 10px 20px;
+  }
+  .wrap .boxs .allbox .po{
     
+    
+    flex-grow: 1;
+    background: rgb(118, 37, 143);
+    color: white;
+  }
+  .wrap .boxs .allbox .info{
+    flex-grow: 1;
+    background: rgb(189, 189, 189);
+    
+  }
+  .wrap .boxs .allbox .news{
+    flex-grow: 2;
+    
+  }
+  .wrap .boxs .allbox .news li{
+    border-bottom: 1px solid black;
+    
+    position: relative;
+  }
+  .wrap .boxs .allbox .news li span{
+    display: block;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+
+  }
+  .wrap .boxs .allbox .sah{
+    background: rgb(189, 189, 189);
+    flex-grow: 1;
+  }
+  .wrap .boxs .allbox .cen{
+    height: 100%;
+    background: tomato;
+    color: white;
+    flex-grow: 1;
   }
