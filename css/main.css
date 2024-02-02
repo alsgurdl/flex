@@ -2,9 +2,12 @@
 @import url('./common.css');
 .wrap{
   margin: 10px auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 .wrap .boxs{
-  width: 65%;
+  width: 1200px;
  height: 500px;
   margin: 0 auto;
   border: 4px solid black;
@@ -12,28 +15,42 @@
   .wrap .boxs .allbox{
   display: flex;
   flex-wrap: wrap;
+  box-sizing: content-box;
   }
   .wrap .boxs .allbox .box{
     width: 25%;
-    height: 45%;
-  
+   
+     margin: 5px;
   justify-content: center;
   
   border: 4px solid black;
-
+  position: relative;
   }
+  .wrap .boxs .allbox .box h3{
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+  .wrap .boxs .allbox .box span{
+    line-height: 20px;
+  }
+ 
   .wrap .boxs .allbox .kling{
     flex-grow: 2;
     margin: 10px 20px;
   }
   .wrap .boxs .allbox .po{
-    
+    padding: 90px;
     
     flex-grow: 1;
     background: rgb(118, 37, 143);
     color: white;
   }
   .wrap .boxs .allbox .info{
+    padding: 95px;
+    
+    padding-bottom: 100px;
     flex-grow: 1;
     background: rgb(189, 189, 189);
     
@@ -41,25 +58,40 @@
   .wrap .boxs .allbox .news{
     flex-grow: 2;
     
+    padding-bottom: 40px;
   }
+  
+  .wrap .boxs .allbox .news ul{
+    width: 350px;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+  }
+
   .wrap .boxs .allbox .news li{
     border-bottom: 1px solid black;
-    
-    position: relative;
+   margin-bottom: 10px;
   }
-  .wrap .boxs .allbox .news li span{
-    display: block;
+  .wrap .boxs .allbox .news span{
+    
+    
     position: absolute;
-    left: 50px;
-    bottom: 20px;
+    left: 85%;
+    top : 10px;
 
   }
   .wrap .boxs .allbox .sah{
+    
+    padding: 7%;
     background: rgb(189, 189, 189);
     flex-grow: 1;
+    flex-shrink: 2;
   }
   .wrap .boxs .allbox .cen{
-    height: 100%;
+    
+    flex-shrink: 2;
+    padding: 7%;
+    
     background: tomato;
     color: white;
     flex-grow: 1;
