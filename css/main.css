@@ -30,24 +30,27 @@
   .wrap .boxs .allbox .box h3{
     font-size: 30px;
     position: absolute;
-    top: 15px;
-    left: 20px;
+    top: 20px;
+    left: 40px;
   }
+  .wrap .boxs .allbox .max .ma{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    }
   .wrap .boxs .allbox .box span{
     line-height: 20px;
+    
   }
  
   .wrap .boxs .allbox .kling{
-    flex-grow: 2;
+    flex-grow: 100;
     margin: 10px 20px;
     background-image: url(../img/san.JPG);
     background-size: cover;
     background-position: center;
   }
-  .wrap .boxs .allbox .kling .san{
   
-   
-  }
   .wrap .boxs .allbox .kling span{
   
    
@@ -56,27 +59,34 @@
    color: white;
    bottom: 1px;
    padding: 10px;
+   
   }
   .wrap .boxs .allbox .po{
     
-    padding-left: 20px;
+    padding: 0 50px;
     padding-top: 70px;
-    flex-grow: 1;
+    
+    
     background: rgb(118, 37, 143);
     color: white;
     
   }
   .wrap .boxs .allbox .info{
    
-    padding: 95px;
+    
+  }
+ 
+  .wrap .boxs .allbox .info{
+   
+    padding: 80px;
     
     padding-bottom: 100px;
-    flex-grow: 1;
+    
     background: rgb(189, 189, 189);
     
   }
   .wrap .boxs .allbox .news{
-    flex-grow: 2;
+    flex-grow: 500;
     
     padding-bottom: 40px;
   }
@@ -84,8 +94,9 @@
   .wrap .boxs .allbox .news ul{
     width: 350px;
     position: absolute;
-    bottom: 10px;
-    left: 25px;
+    bottom: 50px;
+    left: 40px;
+    
   }
 
   .wrap .boxs .allbox .news li{
@@ -138,14 +149,63 @@
   .moble .service ul li{
     border-radius: 5px;
     background: white;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 50px;
     padding-bottom: 100px; 
     text-align: center;
     width: 24%;
+    position: relative;
+    margin-bottom: 40px;
+    height: 325px;
   }
   .moble .service ul strong{
     font-size: 25px;
     padding-top: 20px;
+    
+  }
+  .moble .service ul p{
+    margin: 10px auto;
+  }
+  .moble .service ul img{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+  }
+  .moble .service ul .and{
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    border: 1px solid rgb(100, 100, 100);
+    color: white;
+    background: rgb(100, 100, 100);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .moble .service ul .ios{
+    position: absolute;
+    bottom: 30px;
+    right: 55px;
+    border: 1px solid rgb(100, 100, 100);
+    color: white;
+    background: rgb(100, 100, 100);
+    padding: 10px 30px;
+    border-radius: 5px;
+  }
+  .moble .service ul .boxx{
+    position: absolute;
+    bottom: 33px;
+    right: 70px;
+    background: rgb(100, 100, 100);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 45px;
+  }
+  .moble .service ul .on{
+    background: rgb(100, 100, 100);
+    position: absolute;
+    right: 75px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 60px;
   }
 
