@@ -8,22 +8,23 @@
 }
 .wrap .boxs{
   width: 1200px;
- height: 500px;
+
   margin: 0 auto;
-  border: 4px solid black;
+  
   }
   .wrap .boxs .allbox{
   display: flex;
   flex-wrap: wrap;
   box-sizing: content-box;
+  
   }
   .wrap .boxs .allbox .box{
     width: 25%;
-   
+    border-radius: 5px;
      margin: 5px;
   justify-content: center;
   
-  border: 4px solid black;
+ 
   position: relative;
   }
   .wrap .boxs .allbox .box h3{
@@ -39,15 +40,34 @@
   .wrap .boxs .allbox .kling{
     flex-grow: 2;
     margin: 10px 20px;
+    background-image: url(../img/san.JPG);
+    background-size: cover;
+    background-position: center;
+  }
+  .wrap .boxs .allbox .kling .san{
+  
+   
+  }
+  .wrap .boxs .allbox .kling span{
+  
+   
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+   color: white;
+   bottom: 1px;
+   padding: 10px;
   }
   .wrap .boxs .allbox .po{
-    padding: 90px;
     
+    padding-left: 20px;
+    padding-top: 70px;
     flex-grow: 1;
     background: rgb(118, 37, 143);
     color: white;
+    
   }
   .wrap .boxs .allbox .info{
+   
     padding: 95px;
     
     padding-bottom: 100px;
@@ -85,14 +105,47 @@
     padding: 7%;
     background: rgb(189, 189, 189);
     flex-grow: 1;
-    flex-shrink: 2;
+    
   }
   .wrap .boxs .allbox .cen{
     
-    flex-shrink: 2;
+   height: 100%;
     padding: 7%;
     
     background: tomato;
     color: white;
     flex-grow: 1;
   }
+
+
+
+  /* --------------- */
+  .moble {
+
+    background: rgb(230, 230, 230);
+  }
+  .moble .service{
+    width: 1200px;
+    margin: 0 auto;
+    
+    
+  }
+  .moble .service ul{
+    display: flex;
+    
+    justify-content: space-evenly;
+  }
+  .moble .service ul li{
+    border-radius: 5px;
+    background: white;
+    margin: 10px auto;
+    padding: 50px;
+    padding-bottom: 100px; 
+    text-align: center;
+    width: 24%;
+  }
+  .moble .service ul strong{
+    font-size: 25px;
+    padding-top: 20px;
+  }
+
