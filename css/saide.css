@@ -1,0 +1,86 @@
+@import url('./common.css');
+
+.end1{
+    background: rgb(53, 53, 53);
+}
+.end1 .end2{
+    width: 50%;
+    margin: 0 330px;
+    color: rgb(179, 179, 179);
+    padding: 10px 10px;
+    font-weight: 10;
+}
+.end1 .end2 .end{
+    padding: 7px 10px;
+}
+.end1 .end2 .fo3 span{
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+.end1 .end2 .fo3 .fott{
+    border: none;
+}
+.end1 .end2 .fo3 .rodls{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.end1 .end2 .fo4{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.end1 .end2 .fo4 span{
+    border-right: 1px solid white; 
+    padding: 0 5px;
+    
+}
+.end1 .end2 .fo4 .fott2{
+    border: none;
+}
+.end1 .end2 .fo4 p{
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.end1 .end2 .fo5{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.end1 .end2 .fo5 .fott3{
+    color: white;
+    
+}
+.busno {
+    background: rgb(102, 102, 102);
+    border: 1px solid rgb(179, 179, 179);
+} 
+.busno .nosen ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.busno .nosen ul li{
+    width: 16%;
+    color: rgb(179, 179, 179);
+    border-right: 1px solid rgb(179, 179, 179);
+    padding: 50px;
+  
+}
+.busno .nosen ul h4{
+    width: 80%;
+ color: white;
+ padding-bottom: 15px;
+ font-size: 20px;
+ font-weight: 100;
+ cursor: pointer;
+}
+.busno .nosen ul p{
+    width: 80%;
+    padding-bottom: 10px;
+    font-weight: 100;
+    padding-left: -10px;
+    cursor: pointer;
+    
+}
+.busno .nosen ul .main1{
+    border-left: 1px solid rgb(179, 179, 179);
+}
+
