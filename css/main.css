@@ -15,14 +15,15 @@
   .wrap .boxs .allbox{
   display: flex;
   flex-wrap: wrap;
-  box-sizing: content-box;
+  
+ 
   
   }
   .wrap .boxs .allbox .box{
     width: 25%;
     border-radius: 5px;
      margin: 5px;
-  justify-content: center;
+    
   
  
   position: relative;
@@ -45,15 +46,17 @@
  
   .wrap .boxs .allbox .kling{
     flex-grow: 100;
-    margin: 10px 20px;
+    margin: 10px 7px;
     background-image: url(../img/san.JPG);
     background-size: cover;
     background-position: center;
+    cursor: pointer;
+    
   }
   
   .wrap .boxs .allbox .kling span{
-  
-   
+ width: 100%;
+   font-size: 20px;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
    color: white;
@@ -62,53 +65,69 @@
    
   }
   .wrap .boxs .allbox .po{
-    
+    cursor: pointer;
     padding: 0 50px;
     padding-top: 70px;
     
     
     background: rgb(118, 37, 143);
     color: white;
-    
+    position: relative;
   }
-  .wrap .boxs .allbox .info{
-   
-    
+  .wrap .boxs .allbox .po span{
+    font-weight: 100;
+    position: absolute;
+    left: 37px;
   }
+  
  
   .wrap .boxs .allbox .info{
-   
+    cursor: pointer;
     padding: 80px;
     
     padding-bottom: 100px;
     
     background: rgb(189, 189, 189);
+    position: relative;
+   height: 250px;
     
   }
+ 
+  .wrap .boxs .allbox .info span{
+    position: absolute;
+   left: 43px;
+font-weight: 100;
+top: 70px;
+  }
+
   .wrap .boxs .allbox .news{
     flex-grow: 500;
-    
+    border: 1px solid rgb(197, 197, 197);
     padding-bottom: 40px;
+    padding: 10px;
   }
   
   .wrap .boxs .allbox .news ul{
-    width: 350px;
+    
     position: absolute;
-    bottom: 50px;
-    left: 40px;
+    bottom: 10px;
+    left: 70px;
     
   }
 
   .wrap .boxs .allbox .news li{
+    width: 100%;
     border-bottom: 1px solid black;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
+   cursor: pointer;
+   font-weight: 100;
   }
   .wrap .boxs .allbox .news span{
-    
-    
+    font-weight: 200;
+    cursor: pointer;
     position: absolute;
     left: 85%;
-    top : 10px;
+    top : 30px;
 
   }
   .wrap .boxs .allbox .sah{
@@ -127,19 +146,84 @@
     color: white;
     flex-grow: 1;
   }
-
+  .wrap .boxs .allbox .box {
+    position: relative;
+  }
+  .wrap .boxs .allbox .box .bol{
+   
+    background: rgba(24, 24, 24, 0.5);
+    border-radius:75px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+  }
+  .wrap .boxs .allbox .box .bol .poin{
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    font-size: 50px;
+    color: rgba(236, 236, 236, 0.8);
+    font-weight: 50;
+  }
+  .wrap .boxs .allbox .sah{
+    position: relative;
+    height: 250px;
+  }
+  .wrap .boxs .allbox .sah span{
+    position: absolute;
+   left: 43px;
+   top: 70px;
+   font-weight: 100;
+  }
+  .wrap .boxs .allbox .cen{
+    position: relative;
+    height: 250px;
+  }
+  .wrap .boxs .allbox .cen span{
+    position: absolute;
+    left: 43px;
+    top: 70px;
+    font-weight: 100;
+  }
 
 
   /* --------------- */
   .moble {
 
     background: rgb(230, 230, 230);
+ position: relative;
   }
+  
   .moble .service{
     width: 1200px;
     margin: 0 auto;
     
     
+  }
+  .moble .service .point{
+position: absolute;
+left: 310px;
+cursor: pointer;
+    bottom: 170px;
+    font-size: 70px;
+    color: rgba(185, 185, 185, 0.8);
+    font-weight: 20;
+    
+  }
+  .moble .service .point1{
+    cursor: pointer;
+    position: absolute;
+    right: 310px;
+    
+        bottom: 170px;
+        font-size: 70px;
+        color: rgba(185, 185, 185, 0.8);
+        font-weight: 20;
+        
+  
+  
   }
   .moble .service ul{
     display: flex;
